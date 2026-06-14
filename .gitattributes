@@ -8,3 +8,6 @@
 
 # Windows files
 *.bat text eol=crlf
+
+# Exclude test_lib from git whitespace checks (which affects git-check hook)
+test_lib/** -whitespace conflict-marker-size=50
